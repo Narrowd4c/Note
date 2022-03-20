@@ -1,0 +1,47 @@
+<!Doctype html>
+<html>
+
+    <div id="app">
+        <button @click="event">Click Me</button>
+        <p> {{answer}}</p>
+        
+      </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.26.0/axios.min.js"></script>
+    <script src="https://unpkg.com/vue@next"></script>
+<script> 
+const vm=Vue.createApp({
+	data(){
+		return{
+		 quotes:[],
+      answer:""
+		}
+	},
+		methods:{
+           event:function(){
+             let index=Math.floor(Math.random() * this.quotes.length)  
+             const quote = this.quotes[index]
+               
+               const answer = quote['quote']+'  --'+quote["author"]
+               
+               this.answer = answer
+            }
+            },
+     mounted(){
+        axios.get('https://gist.githubusercontent.com/camperbot/5a022b72e96c4c9585c32bf6a75f62d9/raw/e3c6895ce42069f0ee7e991229064f167fe8ccdc/quotes.json')
+         .then((response)=>{
+          // console.log(response)
+          let quotes = response.data.quotes
+          let defaultQuote = quotes[0]
+          this.quotes = quotes
+          this.answer = defaultQuote.quote+"  -"+defaultQuote.author 
+        })
+       }	
+    }).mount('#app')
+
+
+
+
+</script>
+
+</html>
