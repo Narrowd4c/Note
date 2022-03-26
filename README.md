@@ -1,4 +1,3 @@
-# news.github.io
 MarkDown語法大全
 ===
 
