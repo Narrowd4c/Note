@@ -1,7 +1,7 @@
 MarkDown語法大全
 ===
-[提問的智慧](./How-To-Ask-Questions-The-Smart-Way-main/)
-> 	[HackMD](https://hackmd.io/LjHWceIiQfCGbXkRrCABuA)
+> [提問的智慧](./How-To-Ask-Questions-The-Smart-Way-main/)
+> [HackMD](https://hackmd.io/LjHWceIiQfCGbXkRrCABuA)
 - [主標題](#主標題)  
 - [副標](#副標)  
 - [字體大小](#字體大小)  
