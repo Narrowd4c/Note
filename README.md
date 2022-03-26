@@ -1,6 +1,6 @@
 MarkDown語法大全
 ===
-
+[test](./How-To-Ask-Questions-The-Smart-Way-main/)
 > 	[HackMD](https://hackmd.io/LjHWceIiQfCGbXkRrCABuA)
 - [主標題](#主標題)  
 - [副標](#副標)  
