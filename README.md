@@ -6,4 +6,4 @@
   
 > [Markdown語法大全](./Markdown.md/)  
 
->[學習筆記](https://www.notion.so/HOME-PAGE-2ebe5748ab40470cb53936a42feb876b) 
+>[學習筆記](https://everlasting-hydrangea-e83.notion.site/HOME-PAGE-2ebe5748ab40470cb53936a42feb876b) 
