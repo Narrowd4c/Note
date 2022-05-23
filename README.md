@@ -9,3 +9,5 @@
 >[學習筆記. Notion](https://everlasting-hydrangea-e83.notion.site/HOME-PAGE-2ebe5748ab40470cb53936a42feb876b)  
 
 >[emoji](https://github.com/ikatyang/emoji-cheat-sheet.git)
+
+>[JS-4](./JavaScript高级程序设计（第4版）.pdf)
