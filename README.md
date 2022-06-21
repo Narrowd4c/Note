@@ -10,4 +10,6 @@
 
 >[emoji](https://github.com/ikatyang/emoji-cheat-sheet.git)
 
->[JS-4](./JavaScript高级程序设计（第4版）.pdf)
+>[JS-4](./JavaScript高级程序设计（第4版）.pdf)  
+
+>[垃圾程式碼書寫準則](https://github.com/doggy8088/state-of-the-art-shitcode/blob/zh-tw/README.zh-TW.md)
